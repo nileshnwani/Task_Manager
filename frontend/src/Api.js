@@ -1,4 +1,4 @@
-const API_URL = "https://task-manager-api-mu-five.vercel.app/"; // Backend API URL
+const API_URL = "https://task-manager-api-mu-five.vercel.app"; // Backend API URL
 
 // Function to create a new task
 export const CreateTask = async (taskData) => {
