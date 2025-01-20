@@ -16,8 +16,12 @@ const port = process.env.PORT || 8000;
 // Middleware
 app.use(express.json()); // Built-in body parser
 //app.use(cors());
-app.use(cors({ origin: "http://localhost:3000" }));
-
+app.use(
+  cors({
+    origin: 'https://task-manager-ui-eight.vercel.app', // Replace with your frontend URL
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  })
+);
 // Routes
 app.get("/", (req, res) => {
     res.send("SERVER START");
