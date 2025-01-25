@@ -19,7 +19,6 @@ A simple **Task Manager** app built with the **MERN stack** (MongoDB, Express.js
    cd Task_Manager
 2. **Backend Setup**
    Navigate to `backend/`, install dependencies, and configure `.env`:
-
    ```bash
    cd backend
    npm install
@@ -35,13 +34,13 @@ A simple **Task Manager** app built with the **MERN stack** (MongoDB, Express.js
 
 3. **Frontend Setup:**
   Navigate to frontend/, install dependencies, and update Api.js with the backend URL:
-   '''bash
-     cd ../frontend
-     npm install
+  '''bash
+   cd ../frontend
+   npm install
 
   Start the React app:
-   '''bash
-     npm start
+  '''bash
+   npm start
 
 4. **Access the App:** Open http://localhost:3000 in your browser.
 
@@ -55,4 +54,4 @@ A simple **Task Manager** app built with the **MERN stack** (MongoDB, Express.js
 **Backend:** Controllers, routes, and models for API.
 **Frontend:** React components for task list, add form, etc.
 
-![image_alt](https://github.com/nileshnwani/contact-form-app/blob/66ab105b0eeddbbcdf499f46951dedc2d57d9d7e/image.png)
+![image_alt](https://github.com/nileshnwani/Task_Manager/blob/02915fb98defac25fe2f9cbc4e8ccfe1e7908d6f/Output.png)
