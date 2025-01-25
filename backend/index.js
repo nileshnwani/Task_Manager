@@ -18,10 +18,12 @@ app.use(express.json()); // Built-in body parser
 //app.use(cors());
 app.use(
   cors({
-    origin:'https://task-manager-ui-eight.vercel.app/', // Replace with your frontend URL
+    origin:'https://task-manager-ui-eight.vercel.app', // Replace with your frontend URL
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   })
 );
+app.options('*', cors()); // Enable preflight requests for all routes
+
 // Routes
 app.get("/", (req, res) => {
     res.send("SERVER START");
