@@ -18,31 +18,30 @@ A simple **Task Manager** app built with the **MERN stack** (MongoDB, Express.js
    git clone https://github.com/your-username/Task_Manager.git
    cd Task_Manager
 2. **Backend Setup**
+   Navigate to `backend/`, install dependencies, and configure `.env`:
 
-Navigate to `backend/`, install dependencies, and configure `.env`:
+   ```bash
+   cd backend
+   npm install
 
-```bash
-cd backend
-npm install
+   Example .env file:
+   '''bash
+   MONGO_URI=<your_mongodb_connection_string>
+   PORT=5000
 
-Example .env file:
-'''bash
-MONGO_URI=<your_mongodb_connection_string>
-PORT=5000
-
-Start the server:
-'''bash
-npm start
+   Start the server:
+   '''bash
+   npm start
 
 3. **Frontend Setup:**
   Navigate to frontend/, install dependencies, and update Api.js with the backend URL:
-'''bash
-  cd ../frontend
-  npm install
+   '''bash
+     cd ../frontend
+     npm install
 
   Start the React app:
-'''bash
-  npm start
+   '''bash
+     npm start
 
 4. **Access the App:** Open http://localhost:3000 in your browser.
 
@@ -56,4 +55,4 @@ npm start
 **Backend:** Controllers, routes, and models for API.
 **Frontend:** React components for task list, add form, etc.
 
-!image()
+![image_alt](https://github.com/nileshnwani/contact-form-app/blob/66ab105b0eeddbbcdf499f46951dedc2d57d9d7e/image.png)
